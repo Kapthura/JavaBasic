@@ -6,7 +6,17 @@ package com.kaps.javabasic;
  */
 class ClassOne {
 
-    void display() {
-        System.out.println("Hello Kapthura ...!!! ");
+    private String name;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    void display(String name) {
+        System.out.println("Hello "+name+" how are you ?");
     }
 }
