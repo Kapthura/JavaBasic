@@ -10,18 +10,35 @@ public class JavaBasic {
 
     public static void main(String[] args) {
 
-        String name;
+        /*   //Ex 01
+         //calling to other class,cmd input,Getters and Setters
+         String name;
 
-        Scanner sc = new Scanner(System.in);
+         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Hi what is your name : ");
+         System.out.println("Hi what is your name : ");
         
-        ClassOne co = new ClassOne();
+         ClassOne co = new ClassOne();
 
-        co.setName(sc.nextLine());
-        name = co.getName();
+         co.setName(sc.nextLine());
+         name = co.getName();
 
-        co.display(name);
+         co.display(name);*/
+        //EX 02
+        //Constructors
+        //Calling to default Constructor
+        ConstructorClass cc = new ConstructorClass();
+        cc.display();
+        
+        //Calling to parameterized Constructor 01
+        ConstructorClass cc1= new ConstructorClass(123);
+        cc1.display();
+
+        //Calling to parameterized Constructor 02
+        ConstructorClass cc2 = new ConstructorClass(456, "Kaps");
+        cc2.display();
+
+        
     }
 
 }
