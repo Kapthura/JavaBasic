@@ -49,17 +49,18 @@ public class JavaBasic {
         
         //Ex04
         //Array
-        //ArrayClass ac=new ArrayClass();
+        ArrayClass ac=new ArrayClass();
         //ac.arrayDemo1();
         //ac.arrayDemo2();
         //ac.arrayDemo03();
+        ac.arrayListDemo();
         
-        //Ex05
+       /* //Ex05
         //Special Stuff
         SpecialClass sp=new SpecialClass();
         
         //Any no of inputs
-        sp.anyNoOfInputs(2,5,7,14,40);
+        sp.anyNoOfInputs(2,5,7,14,40);*/
         
     }
 
