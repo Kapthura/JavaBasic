@@ -37,7 +37,7 @@ public class JavaBasic {
          //Calling to parameterized Constructor 02
          ConstructorClass cc2 = new ConstructorClass(456, "Kaps");
          cc2.display();*/
-        //Ex 03
+       /* //Ex 03
         //Control Flow Statement
         //Switch Statement 
         //Send month no display month name
@@ -45,7 +45,22 @@ public class JavaBasic {
         //cfs.switchM(14);
         // cfs.dowhile();
         //cfs.forM1();
-         cfs.forM2();
+         //cfs.forM2();*/
+        
+        //Ex04
+        //Array
+        //ArrayClass ac=new ArrayClass();
+        //ac.arrayDemo1();
+        //ac.arrayDemo2();
+        //ac.arrayDemo03();
+        
+        //Ex05
+        //Special Stuff
+        SpecialClass sp=new SpecialClass();
+        
+        //Any no of inputs
+        sp.anyNoOfInputs(2,5,7,14,40);
+        
     }
 
 }
